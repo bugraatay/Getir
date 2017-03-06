@@ -14,8 +14,6 @@
 		CFAFFBC01E6DE37B004F37BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAFFBBE1E6DE37B004F37BE /* Main.storyboard */; };
 		CFAFFBC21E6DE37B004F37BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAFFBC11E6DE37B004F37BE /* Assets.xcassets */; };
 		CFAFFBC51E6DE37B004F37BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAFFBC31E6DE37B004F37BE /* LaunchScreen.storyboard */; };
-		CFAFFBCE1E6DE3BD004F37BE /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAFFBCD1E6DE3BD004F37BE /* RequestViewModel.m */; };
-		CFAFFBD11E6DE3CA004F37BE /* ResponseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAFFBD01E6DE3CA004F37BE /* ResponseViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +30,6 @@
 		CFAFFBC11E6DE37B004F37BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFAFFBC41E6DE37B004F37BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFAFFBC61E6DE37B004F37BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFAFFBCC1E6DE3BD004F37BE /* RequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewModel.h; sourceTree = "<group>"; };
-		CFAFFBCD1E6DE3BD004F37BE /* RequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewModel.m; sourceTree = "<group>"; };
-		CFAFFBCF1E6DE3CA004F37BE /* ResponseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseViewModel.h; sourceTree = "<group>"; };
-		CFAFFBD01E6DE3CA004F37BE /* ResponseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +82,6 @@
 		CFAFFBB41E6DE37B004F37BE /* Getir */ = {
 			isa = PBXGroup;
 			children = (
-				CFF545371E6DE47C004A40B2 /* Models */,
 				CFAFFBB81E6DE37B004F37BE /* AppDelegate.h */,
 				CFAFFBB91E6DE37B004F37BE /* AppDelegate.m */,
 				CFAFFBBB1E6DE37B004F37BE /* ViewController.h */,
@@ -108,18 +101,6 @@
 				CFAFFBB61E6DE37B004F37BE /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CFF545371E6DE47C004A40B2 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				CFAFFBCC1E6DE3BD004F37BE /* RequestViewModel.h */,
-				CFAFFBCD1E6DE3BD004F37BE /* RequestViewModel.m */,
-				CFAFFBCF1E6DE3CA004F37BE /* ResponseViewModel.h */,
-				CFAFFBD01E6DE3CA004F37BE /* ResponseViewModel.m */,
-			);
-			name = Models;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFAFFBBD1E6DE37B004F37BE /* ViewController.m in Sources */,
-				CFAFFBD11E6DE3CA004F37BE /* ResponseViewModel.m in Sources */,
 				CFAFFBBA1E6DE37B004F37BE /* AppDelegate.m in Sources */,
-				CFAFFBCE1E6DE3BD004F37BE /* RequestViewModel.m in Sources */,
 				CFAFFBB71E6DE37B004F37BE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
