@@ -90,6 +90,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btn_Gonder:" destination="hv8-AF-dS4" eventType="touchUpInside" id="zby-Tz-Imk"/>
+                                    <segue destination="BKw-hG-roX" kind="push" identifier="postDatasToCanvasVC" id="5h4-R1-pFA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -125,6 +126,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yr6-cb-pyb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="751.875" y="41.197183098591552"/>
+        </scene>
+        <!--Canvas View Controller-->
+        <scene sceneID="5Sq-Oz-pDu">
+            <objects>
+                <viewController id="BKw-hG-roX" customClass="CanvasViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YVf-dF-uGy"/>
+                        <viewControllerLayoutGuide type="bottom" id="i9D-QB-Gwb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d8I-rf-OGH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5H-Dg-On4">
+                                <rect key="frame" x="0.0" y="70" width="320" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="D8Y-OT-o8q">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="Ubg-Dw-ynq"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="lbl_ShowData" destination="h5H-Dg-On4" id="6GE-1e-NRY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l3Z-sA-h1K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1516" y="41"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Qlq-TP-TtT">

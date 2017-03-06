@@ -35,6 +35,7 @@
              _txt_Telefon.text, @"gsm",
              nil];
     [self postRequestWithData:_requestData getData:_responseData];
+    [self performSegueWithIdentifier:@"postDatasToCanvasVC" sender:sender];
 }
 
 -(void)postRequestWithData:(NSMutableDictionary *)requestData getData:(NSMutableDictionary *)responseData{
@@ -73,5 +74,11 @@
         
     }] resume];
 }
-
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+        if ([[segue identifier] isEqualToString:@"postDatasToCanvasVC"]) {
+            CanvasViewController *vc = [segue destinationViewController];
+//            [vc setResponseData:_responseData];
+            [vc setResponseData:[NSMutableDictionary dictionaryWithDictionary:_responseData]];
+    }   
+}
 @end

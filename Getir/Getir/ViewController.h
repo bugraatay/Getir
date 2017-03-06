@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "AFHTTPSessionManager.h"
 #import "AFURLSessionManager.h"
-
+#import "CanvasViewController.h"
 @interface ViewController : UIViewController
 
 @property (strong, nonatomic) NSMutableDictionary *requestData;
