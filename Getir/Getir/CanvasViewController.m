@@ -17,9 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    _lbl_ShowData.text = [_responseData objectForKey:@"elements"];
-    for(id item in _responseData){
-        NSLog(@"dest:%@", item);
+    
+    for(id item in _responseData[@"elements"]){
+        NSLog(@"Shape:%@", item);
     }
 }
 
