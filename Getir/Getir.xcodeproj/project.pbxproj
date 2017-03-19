@@ -8,34 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		B469322992B4F1A343D49360 /* libPods-Getir.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D56891106A98EA6B67B40A /* libPods-Getir.a */; };
+		CF8131681E7439FB0023584E /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8131671E7439FB0023584E /* loginViewController.m */; };
+		CF81316B1E7DDCED0023584E /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81316A1E7DDCED0023584E /* Shape.m */; };
+		CF81316F1E7DE31E0023584E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81316E1E7DE31E0023584E /* User.m */; };
 		CFAFFBB71E6DE37B004F37BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAFFBB61E6DE37B004F37BE /* main.m */; };
 		CFAFFBBA1E6DE37B004F37BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAFFBB91E6DE37B004F37BE /* AppDelegate.m */; };
-		CFAFFBBD1E6DE37B004F37BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAFFBBC1E6DE37B004F37BE /* ViewController.m */; };
 		CFAFFBC01E6DE37B004F37BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAFFBBE1E6DE37B004F37BE /* Main.storyboard */; };
 		CFAFFBC21E6DE37B004F37BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAFFBC11E6DE37B004F37BE /* Assets.xcassets */; };
 		CFAFFBC51E6DE37B004F37BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAFFBC31E6DE37B004F37BE /* LaunchScreen.storyboard */; };
-		CFAFFBCE1E6DE3BD004F37BE /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAFFBCD1E6DE3BD004F37BE /* RequestViewModel.m */; };
-		CFAFFBD11E6DE3CA004F37BE /* ResponseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAFFBD01E6DE3CA004F37BE /* ResponseViewModel.m */; };
+		CFF545411E6DFF5E004A40B2 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF5453F1E6DFF5E004A40B2 /* CanvasViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E24F9399D9797B91AB456C8 /* Pods-Getir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Getir.release.xcconfig"; path = "Pods/Target Support Files/Pods-Getir/Pods-Getir.release.xcconfig"; sourceTree = "<group>"; };
 		31D56891106A98EA6B67B40A /* libPods-Getir.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Getir.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A531B45A7E93FFA37DD06B92 /* Pods-Getir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Getir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Getir/Pods-Getir.debug.xcconfig"; sourceTree = "<group>"; };
+		CF8131661E7439FB0023584E /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		CF8131671E7439FB0023584E /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		CF8131691E7DDCED0023584E /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		CF81316A1E7DDCED0023584E /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		CF81316D1E7DE31E0023584E /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		CF81316E1E7DE31E0023584E /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		CFAFFBB21E6DE37B004F37BE /* Getir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Getir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFAFFBB61E6DE37B004F37BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CFAFFBB81E6DE37B004F37BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CFAFFBB91E6DE37B004F37BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CFAFFBBB1E6DE37B004F37BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CFAFFBBC1E6DE37B004F37BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CFAFFBBF1E6DE37B004F37BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFAFFBC11E6DE37B004F37BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFAFFBC41E6DE37B004F37BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFAFFBC61E6DE37B004F37BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFAFFBCC1E6DE3BD004F37BE /* RequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewModel.h; sourceTree = "<group>"; };
-		CFAFFBCD1E6DE3BD004F37BE /* RequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewModel.m; sourceTree = "<group>"; };
-		CFAFFBCF1E6DE3CA004F37BE /* ResponseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseViewModel.h; sourceTree = "<group>"; };
-		CFAFFBD01E6DE3CA004F37BE /* ResponseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseViewModel.m; sourceTree = "<group>"; };
+		CFF5453E1E6DFF5E004A40B2 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CanvasViewController.h; path = Getir/CanvasViewController.h; sourceTree = "<group>"; };
+		CFF5453F1E6DFF5E004A40B2 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CanvasViewController.m; path = Getir/CanvasViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CF81316C1E7DDCFE0023584E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF8131691E7DDCED0023584E /* Shape.h */,
+				CF81316A1E7DDCED0023584E /* Shape.m */,
+				CF81316D1E7DE31E0023584E /* User.h */,
+				CF81316E1E7DE31E0023584E /* User.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		CFAFFBA91E6DE37B004F37BE = {
 			isa = PBXGroup;
 			children = (
@@ -88,15 +102,13 @@
 		CFAFFBB41E6DE37B004F37BE /* Getir */ = {
 			isa = PBXGroup;
 			children = (
-				CFF545371E6DE47C004A40B2 /* Models */,
 				CFAFFBB81E6DE37B004F37BE /* AppDelegate.h */,
 				CFAFFBB91E6DE37B004F37BE /* AppDelegate.m */,
-				CFAFFBBB1E6DE37B004F37BE /* ViewController.h */,
-				CFAFFBBC1E6DE37B004F37BE /* ViewController.m */,
 				CFAFFBBE1E6DE37B004F37BE /* Main.storyboard */,
 				CFAFFBC11E6DE37B004F37BE /* Assets.xcassets */,
 				CFAFFBC31E6DE37B004F37BE /* LaunchScreen.storyboard */,
 				CFAFFBC61E6DE37B004F37BE /* Info.plist */,
+				CFF545401E6DFF5E004A40B2 /* ViewControllers */,
 				CFAFFBB51E6DE37B004F37BE /* Supporting Files */,
 			);
 			path = Getir;
@@ -110,15 +122,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CFF545371E6DE47C004A40B2 /* Models */ = {
+		CFF545401E6DFF5E004A40B2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CFAFFBCC1E6DE3BD004F37BE /* RequestViewModel.h */,
-				CFAFFBCD1E6DE3BD004F37BE /* RequestViewModel.m */,
-				CFAFFBCF1E6DE3CA004F37BE /* ResponseViewModel.h */,
-				CFAFFBD01E6DE3CA004F37BE /* ResponseViewModel.m */,
+				CF8131661E7439FB0023584E /* loginViewController.h */,
+				CF8131671E7439FB0023584E /* loginViewController.m */,
+				CFF5453E1E6DFF5E004A40B2 /* CanvasViewController.h */,
+				CFF5453F1E6DFF5E004A40B2 /* CanvasViewController.m */,
+				CF81316C1E7DDCFE0023584E /* Models */,
 			);
-			name = Models;
+			name = ViewControllers;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -245,10 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFAFFBBD1E6DE37B004F37BE /* ViewController.m in Sources */,
-				CFAFFBD11E6DE3CA004F37BE /* ResponseViewModel.m in Sources */,
+				CFF545411E6DFF5E004A40B2 /* CanvasViewController.m in Sources */,
+				CF8131681E7439FB0023584E /* loginViewController.m in Sources */,
+				CF81316F1E7DE31E0023584E /* User.m in Sources */,
+				CF81316B1E7DDCED0023584E /* Shape.m in Sources */,
 				CFAFFBBA1E6DE37B004F37BE /* AppDelegate.m in Sources */,
-				CFAFFBCE1E6DE3BD004F37BE /* RequestViewModel.m in Sources */,
 				CFAFFBB71E6DE37B004F37BE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
