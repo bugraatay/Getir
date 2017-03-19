@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B469322992B4F1A343D49360 /* libPods-Getir.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D56891106A98EA6B67B40A /* libPods-Getir.a */; };
 		CF8131681E7439FB0023584E /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8131671E7439FB0023584E /* loginViewController.m */; };
-		CF81316B1E7DDCED0023584E /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81316A1E7DDCED0023584E /* Shape.m */; };
 		CF81316F1E7DE31E0023584E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CF81316E1E7DE31E0023584E /* User.m */; };
 		CFAFFBB71E6DE37B004F37BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAFFBB61E6DE37B004F37BE /* main.m */; };
 		CFAFFBBA1E6DE37B004F37BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAFFBB91E6DE37B004F37BE /* AppDelegate.m */; };
@@ -25,8 +24,6 @@
 		A531B45A7E93FFA37DD06B92 /* Pods-Getir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Getir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Getir/Pods-Getir.debug.xcconfig"; sourceTree = "<group>"; };
 		CF8131661E7439FB0023584E /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
 		CF8131671E7439FB0023584E /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
-		CF8131691E7DDCED0023584E /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
-		CF81316A1E7DDCED0023584E /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
 		CF81316D1E7DE31E0023584E /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		CF81316E1E7DE31E0023584E /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		CFAFFBB21E6DE37B004F37BE /* Getir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Getir.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,12 +70,11 @@
 		CF81316C1E7DDCFE0023584E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CF8131691E7DDCED0023584E /* Shape.h */,
-				CF81316A1E7DDCED0023584E /* Shape.m */,
 				CF81316D1E7DE31E0023584E /* User.h */,
 				CF81316E1E7DE31E0023584E /* User.m */,
 			);
 			name = Models;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CFAFFBA91E6DE37B004F37BE = {
@@ -108,6 +104,7 @@
 				CFAFFBC11E6DE37B004F37BE /* Assets.xcassets */,
 				CFAFFBC31E6DE37B004F37BE /* LaunchScreen.storyboard */,
 				CFAFFBC61E6DE37B004F37BE /* Info.plist */,
+				CF81316C1E7DDCFE0023584E /* Models */,
 				CFF545401E6DFF5E004A40B2 /* ViewControllers */,
 				CFAFFBB51E6DE37B004F37BE /* Supporting Files */,
 			);
@@ -129,7 +126,6 @@
 				CF8131671E7439FB0023584E /* loginViewController.m */,
 				CFF5453E1E6DFF5E004A40B2 /* CanvasViewController.h */,
 				CFF5453F1E6DFF5E004A40B2 /* CanvasViewController.m */,
-				CF81316C1E7DDCFE0023584E /* Models */,
 			);
 			name = ViewControllers;
 			path = ..;
@@ -261,7 +257,6 @@
 				CFF545411E6DFF5E004A40B2 /* CanvasViewController.m in Sources */,
 				CF8131681E7439FB0023584E /* loginViewController.m in Sources */,
 				CF81316F1E7DE31E0023584E /* User.m in Sources */,
-				CF81316B1E7DDCED0023584E /* Shape.m in Sources */,
 				CFAFFBBA1E6DE37B004F37BE /* AppDelegate.m in Sources */,
 				CFAFFBB71E6DE37B004F37BE /* main.m in Sources */,
 			);
