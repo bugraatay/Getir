@@ -10,4 +10,19 @@
 
 @interface Shape : NSObject
 
+@property (strong, nonatomic) NSString *type, *xPosition, *yPosition, *r, *with, *height, *color;
+
+- (id)initWithTypeCircular:(NSString *)shapeType
+      andXPosition:(NSString *)xPositon
+      andYPosition:(NSString *)yPostion
+              andR:(NSString *)r
+          andColor:(NSString *)color;
+
+- (id)initWithTypeQuadrilateral:(NSString *)shapeType
+                   andXPosition:(NSString *)xPositon
+                   andYPosition:(NSString *)yPostion
+                        andWith:(NSString *)quadrilateralWith
+                      andHeight:(NSString *)quadrilateralHeight
+                       andColor:(NSString *)color;
+
 @end

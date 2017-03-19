@@ -10,4 +10,16 @@
 
 @implementation User
 
+-(id)initWithEMail:(NSString *)email andName:(NSString *)nameAndSurname andGSM:(NSString *)mobilePhone{
+   
+    self = [super init];
+    
+    if (self) {
+        email = _email;
+        nameAndSurname = _name;
+        mobilePhone = _gsm;
+    }
+    
+    return self;
+}
 @end

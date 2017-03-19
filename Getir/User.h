@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface User : NSObject
+@property (strong, nonatomic) NSString *email, *name, *gsm;
 
+- (id)initWithEMail:(NSString *)email
+            andName:(NSString *)nameAndSurname
+             andGSM:(NSString *)mobilePhone;
 @end

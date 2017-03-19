@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AFHTTPSessionManager.h"
+#import "AFURLSessionManager.h"
+#import "CanvasViewController.h"
 
 @interface loginViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *txt_Mail;
+@property (weak, nonatomic) IBOutlet UITextField *txt_AdSoyad;
+@property (weak, nonatomic) IBOutlet UITextField *txt_Telefon;
 
 @end

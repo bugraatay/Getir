@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AFHTTPSessionManager.h"
+#import "AFURLSessionManager.h"
+#import "User.h"
+#import "Shape.h"
 
 @interface CanvasViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *lbl_ShowData;
 
 @property (strong, nonatomic) NSMutableDictionary *responseData;
+@property (strong, nonatomic) User *user;
+
+- (IBAction)refreshButton:(id)sender;
+
+- (void)postRequestWithUser:(User *)User;
 @end
