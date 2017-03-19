@@ -10,7 +10,6 @@
 #import "AFHTTPSessionManager.h"
 #import "AFURLSessionManager.h"
 #import "User.h"
-#import "Shape.h"
 
 @interface CanvasViewController : UIViewController
 
