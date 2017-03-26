@@ -15,5 +15,10 @@
 @property (weak, nonatomic) IBOutlet UITextField *txt_Mail;
 @property (weak, nonatomic) IBOutlet UITextField *txt_AdSoyad;
 @property (weak, nonatomic) IBOutlet UITextField *txt_Telefon;
+@property (weak, nonatomic) IBOutlet UIButton *btn_Basla;
+
+@property BOOL nameFlag;
+@property BOOL mailFlag;
+@property BOOL gsmFlag;
 
 @end

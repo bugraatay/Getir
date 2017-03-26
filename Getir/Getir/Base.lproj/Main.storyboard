@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Hvv-pK-DBl">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,11 +19,11 @@
                         <viewControllerLayoutGuide type="bottom" id="cBp-Jz-Hfv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TXe-7Z-bgd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="e-Mail:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBa-GL-NKy">
-                                <rect key="frame" x="30" y="144" width="103" height="27.666666666666657"/>
+                                <rect key="frame" x="26" y="144" width="103" height="27.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="103" id="YAx-Mm-0VB"/>
                                 </constraints>
@@ -31,17 +31,20 @@
                                 <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="t8F-wq-lfO">
-                                <rect key="frame" x="141" y="144" width="233" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="t8F-wq-lfO">
+                                <rect key="frame" x="137" y="144" width="202" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="D00-sJ-ovp"/>
                                 </constraints>
                                 <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="hv8-AF-dS4" id="bEG-iX-SCQ"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ad Soyad:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZu-Zz-VfS">
-                                <rect key="frame" x="30" y="179.66666666666666" width="103" height="30"/>
+                                <rect key="frame" x="26" y="179.5" width="103" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="103" id="Bv9-zo-jHw"/>
                                     <constraint firstAttribute="height" constant="30" id="JpI-o8-4AF"/>
@@ -50,17 +53,20 @@
                                 <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="QSj-iQ-1i0">
-                                <rect key="frame" x="141" y="182" width="233" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="QSj-iQ-1i0">
+                                <rect key="frame" x="137" y="182" width="202" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="RrV-dg-KOZ"/>
                                 </constraints>
                                 <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="hv8-AF-dS4" id="jt5-pd-7Dg"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Telefon N.:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1c-P5-kIm">
-                                <rect key="frame" x="30" y="217.66666666666666" width="103" height="30"/>
+                                <rect key="frame" x="26" y="217.5" width="103" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Dff-XH-Xio"/>
                                     <constraint firstAttribute="width" constant="103" id="U97-1r-2rC"/>
@@ -69,23 +75,26 @@
                                 <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="g4L-UE-cPN">
-                                <rect key="frame" x="141" y="220" width="233" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="g4L-UE-cPN">
+                                <rect key="frame" x="137" y="220" width="202" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="xz2-Qm-8TP"/>
                                 </constraints>
                                 <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="hv8-AF-dS4" id="LG6-m8-dal"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3DV-KM-0yG">
-                                <rect key="frame" x="120" y="280" width="174" height="50"/>
+                                <rect key="frame" x="116" y="280" width="143" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="evk-Ts-uSG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                <state key="normal" title="Gönder">
+                                <state key="normal" title="Başla">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -117,6 +126,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="mUS-Sr-U29"/>
                     <connections>
+                        <outlet property="btn_Basla" destination="3DV-KM-0yG" id="RiQ-Aw-gKD"/>
                         <outlet property="txt_AdSoyad" destination="QSj-iQ-1i0" id="ePA-KX-irv"/>
                         <outlet property="txt_Mail" destination="t8F-wq-lfO" id="hUg-In-izH"/>
                         <outlet property="txt_Telefon" destination="g4L-UE-cPN" id="VLv-sz-60t"/>
@@ -135,7 +145,7 @@
                         <viewControllerLayoutGuide type="bottom" id="i9D-QB-Gwb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="d8I-rf-OGH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
