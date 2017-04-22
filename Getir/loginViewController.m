@@ -15,8 +15,6 @@
 @implementation loginViewController
 
 - (void)viewDidLoad {
-    
-    
     [super viewDidLoad];
     
     [_txt_Mail becomeFirstResponder];
