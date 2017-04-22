@@ -15,6 +15,8 @@
 @implementation loginViewController
 
 - (void)viewDidLoad {
+    
+    //deneme
     [super viewDidLoad];
     
     [_txt_Mail becomeFirstResponder];
