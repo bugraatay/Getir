@@ -16,8 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self showHint:@"Telefonu sallayarak ya da sağ üstteki butondan yeniden çizdirebilirsin." withTitle:@"İpucu"];
+    [self.view setUserInteractionEnabled:NO];
+    [self showHint:@"Telefonu sallayarak ya da sağ üstteki butondan yeniden çizdirebilirsin."
+         withTitle:[NSString stringWithFormat:@"Merhaba %@!", self.user.name]];
 }
 
 - (void)didReceiveMemoryWarning {
