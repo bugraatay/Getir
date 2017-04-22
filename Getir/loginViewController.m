@@ -18,7 +18,7 @@
     [super viewDidLoad];
     //alan2
     
-    
+    //Buğra
     [_txt_Mail becomeFirstResponder];
     _btn_Basla.enabled = NO;
     _btn_Basla.alpha = 0.5f;
