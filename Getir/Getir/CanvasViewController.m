@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     
-    //alan 1
+    //alan 13
     [super viewDidLoad];
     [self.view setUserInteractionEnabled:NO];
     [self showHint:@"Telefonu sallayarak ya da sağ üstteki butondan yeniden çizdirebilirsin."
