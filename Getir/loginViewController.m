@@ -16,8 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //alan2
-    //ikinci satır
     
     [_txt_Mail becomeFirstResponder];
     _btn_Basla.enabled = NO;
