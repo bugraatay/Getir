@@ -15,7 +15,7 @@
 @implementation loginViewController
 
 - (void)viewDidLoad {
-    //ATAY
+    //ATAYsad
     [super viewDidLoad];
     [_txt_Mail becomeFirstResponder];
     _btn_Basla.enabled = NO;
