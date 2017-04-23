@@ -15,7 +15,7 @@
 @implementation CanvasViewController
 
 - (void)viewDidLoad {
-    //Buğra
+    
     [super viewDidLoad];
     [self.view setUserInteractionEnabled:NO];
     [self showHint:@"Telefonu sallayarak ya da sağ üstteki butondan yeniden çizdirebilirsin."
