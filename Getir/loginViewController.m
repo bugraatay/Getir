@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     //buğra
     //2
+//    3
     [super viewDidLoad];
     [_txt_Mail becomeFirstResponder];
     _btn_Basla.enabled = NO;
