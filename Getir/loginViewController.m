@@ -13,7 +13,7 @@
 @end
 
 @implementation loginViewController
-
+//M. BUĞRA ATAY
 - (void)viewDidLoad {
     [super viewDidLoad];
     [_txt_Mail becomeFirstResponder];
