@@ -13,8 +13,9 @@
 @end
 
 @implementation loginViewController
-//M. BUĞRA ATAY
+
 - (void)viewDidLoad {
+//bazıları
     [super viewDidLoad];
     [_txt_Mail becomeFirstResponder];
     _btn_Basla.enabled = NO;

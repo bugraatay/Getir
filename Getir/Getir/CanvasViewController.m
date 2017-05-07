@@ -11,11 +11,10 @@
 @interface CanvasViewController ()
 
 @end
-//mba
+
 @implementation CanvasViewController
 
 - (void)viewDidLoad {
-    
     [super viewDidLoad];
     [self.view setUserInteractionEnabled:NO];
     [self showHint:@"Telefonu sallayarak ya da sağ üstteki butondan yeniden çizdirebilirsin."
