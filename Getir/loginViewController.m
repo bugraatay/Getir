@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
 //bazıları
-    //kupalar
+    //kupalara
+    //bizim bu
     [super viewDidLoad];
     [_txt_Mail becomeFirstResponder];
     _btn_Basla.enabled = NO;
